@@ -9,7 +9,6 @@ public class RewardChestsPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
     }
 
     @Override
