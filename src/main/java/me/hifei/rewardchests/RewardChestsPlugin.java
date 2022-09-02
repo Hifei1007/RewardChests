@@ -7,4 +7,13 @@ public class RewardChestsPlugin extends JavaPlugin {
         throw new RuntimeException("What are you doing? YOU ARE TRYING RUN A PLUGIN?");
     }
 
+    @Override
+    public void onEnable() {
+
+    }
+
+    @Override
+    public void onDisable () {
+
+    }
 }

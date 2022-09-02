@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47a154f-a385-4d8b-a806-c71a5431a3b8" name="变更" comment="starter test">
-      <change afterPath="$PROJECT_DIR$/files/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e47a154f-a385-4d8b-a806-c71a5431a3b8" name="变更" comment="start plugin">
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsPlugin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +61,26 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="RewardChestsPlugin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.hifei.rewardchests.RewardChestsPlugin" />
+      <module name="RewardChests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.hifei.rewardchests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.RewardChestsPlugin" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -72,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662033064159</updated>
       <workItem from="1662033065621" duration="4502000" />
-      <workItem from="1662117826526" duration="268000" />
+      <workItem from="1662117826526" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="base work">
       <created>1662034205287</created>
@@ -116,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662037592764</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="start plugin">
+      <created>1662118303138</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662118303138</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +152,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="rewardChests/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -136,7 +173,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base work" />
     <MESSAGE value="starter test" />
-    <option name="LAST_COMMIT_MESSAGE" value="starter test" />
+    <MESSAGE value="start plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="start plugin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
