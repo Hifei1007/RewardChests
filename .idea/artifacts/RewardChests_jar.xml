@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="RewardChests:jar">
+    <output-path>$PROJECT_DIR$/test/plugins</output-path>
+    <root id="archive" name="RewardChests.jar">
+      <element id="module-output" name="RewardChests" />
+    </root>
+  </artifact>
+</component>
