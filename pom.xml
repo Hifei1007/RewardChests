@@ -5,19 +5,37 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.hifei</groupId>
-    <artifactId>0.1.0-BETATEST</artifactId>
+    <artifactId>STABLE-VERSION</artifactId>
     <version>dev 1.0</version>
 
     <name>reward-chest</name>
     <packaging>jar</packaging>
     <description>A plugin dev with Hifei1007. In you survival, some reward chests give you rewards.</description>
 
+    <developers>
+        <developer>
+            <id>hifeiissonb</id>
+            <name>Hifei1007</name>
+            <roles>
+                <role>The No.1 Developer in the Project</role>
+            </roles>
+            <organization>mcs-gzt</organization>
+            <timezone>8</timezone>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
     <dependencies>
         <dependency>
             <groupId>api</groupId>
             <artifactId>api</artifactId>
             <version>1.19.2</version>
-            <scope>system</scope>
             <systemPath>${basedir}\libraries\spigot-api-1.19.2.jar</systemPath>
         </dependency>
 
@@ -25,7 +43,6 @@
             <groupId>nms</groupId>
             <artifactId>nms</artifactId>
             <version>1.19.2</version>
-            <scope>system</scope>
             <systemPath>${basedir}\libraries\spigot-nms-1.19.2.jar</systemPath>
         </dependency>
     </dependencies>
