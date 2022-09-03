@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e47a154f-a385-4d8b-a806-c71a5431a3b8" name="变更" comment="coding something">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsGUIConfigApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestPartType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/OpeningMenuType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/RewardChestsMenuManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/RewardChestsMenuListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/simple/SimpleRewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/simple/SimpleRewardChest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsGUIConfigApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsGUIConfigApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestPartType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestPartType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/OpeningMenuType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/OpeningMenuType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/RewardChestsMenuManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/RewardChestsMenuManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -102,7 +101,7 @@
       <workItem from="1662033065621" duration="4502000" />
       <workItem from="1662117826526" duration="1177000" />
       <workItem from="1662121221897" duration="938000" />
-      <workItem from="1662169978837" duration="6017000" />
+      <workItem from="1662169978837" duration="9436000" />
     </task>
     <task id="LOCAL-00001" summary="base work">
       <created>1662034205287</created>
@@ -195,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662173386384</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="coding something">
+      <created>1662177673647</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662177673647</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

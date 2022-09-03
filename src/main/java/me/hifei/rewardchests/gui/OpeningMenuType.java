@@ -5,5 +5,6 @@ public enum OpeningMenuType {
     CHEST_MAIN,
     PARTS,
     OPEN_CONFIRM,
-    LOOTING
+    LOOTING,
+    OTHER
 }

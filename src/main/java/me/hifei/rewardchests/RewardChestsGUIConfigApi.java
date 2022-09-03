@@ -1,5 +1,6 @@
 package me.hifei.rewardchests;
 
+import me.hifei.rewardchests.gui.RewardChestsMenuManager;
 import org.bukkit.entity.Player;
 
 public class RewardChestsGUIConfigApi {
@@ -14,6 +15,6 @@ public class RewardChestsGUIConfigApi {
     }
 
     public static void openGUI(Player player) {
-
+        RewardChestsMenuManager.openMainMenu(player);
     }
 }

@@ -1,5 +1,6 @@
 package me.hifei.rewardchests.chest;
 
+import me.hifei.rewardchests.RewardChestsPlugin;
 import me.hifei.rewardchests.simple.SimpleRewardChest;
 import net.minecraft.world.item.Items;
 import org.bukkit.attribute.Attribute;
@@ -61,6 +62,6 @@ public interface RewardChest {
     }
 
     default void deleteFromPlayer() {
-
+        RewardChestsPlugin.instance().getManager().removeChest(getOwner(), this);
     }
 }
