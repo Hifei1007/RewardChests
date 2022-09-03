@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e47a154f-a385-4d8b-a806-c71a5431a3b8" name="变更" comment="coding something">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/RewardChestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/extended/ExtendedRewardChest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/extended/ExtendedRewardChestHooked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/extended/ExtendedRewardChestPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/DefineArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/DefineLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/DefinePosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/ExtendedPartHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/HookLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/HookMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/HookPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/chestcore/RewardChest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/simple/SimpleRewardChestManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/chestcore/RewardChestPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestPartType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/chestcore/RewardChestPartType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/RewardChestsMenuManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/RewardChestsMenuManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/chestcore/RewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/chestcore/RewardChest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/extended/ExtendedRewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/extended/ExtendedRewardChest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/extended/ExtendedRewardChestHooked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/extended/ExtendedRewardChestHooked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/simple/SimpleRewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/simple/SimpleRewardChest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +26,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -108,7 +110,7 @@
       <workItem from="1662121221897" duration="938000" />
       <workItem from="1662169978837" duration="9477000" />
       <workItem from="1662195211044" duration="3707000" />
-      <workItem from="1662205044442" duration="420000" />
+      <workItem from="1662205044442" duration="2874000" />
     </task>
     <task id="LOCAL-00001" summary="base work">
       <created>1662034205287</created>
@@ -215,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662180993433</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="coding something">
+      <created>1662205776621</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662205776621</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

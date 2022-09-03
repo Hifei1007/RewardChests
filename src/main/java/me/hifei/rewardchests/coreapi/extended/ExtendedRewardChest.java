@@ -20,6 +20,4 @@ public interface ExtendedRewardChest extends RewardChest {
     @Nullable AutoItemConverter<ExtendedRewardChest, ItemStack> getChestInfoItemConverter();
     List<RewardChestPart> getPartList();
     void setLootForce(Collection<ItemStack> loot);
-
-
 }

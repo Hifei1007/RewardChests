@@ -3,13 +3,19 @@ package me.hifei.rewardchests.simple;
 import me.hifei.rewardchests.RewardChestsPlugin;
 import me.hifei.rewardchests.coreapi.chestcore.RewardChest;
 import me.hifei.rewardchests.coreapi.chestcore.RewardChestPart;
+import me.hifei.rewardchests.gui.RewardChestsMenuManager;
+import org.bukkit.attribute.Attribute;
+import org.bukkit.attribute.AttributeInstance;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.loot.LootContext;
 import org.bukkit.loot.LootTable;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Random;
 
 public class SimpleRewardChest implements RewardChest {
     private final LootTable table;
@@ -59,11 +65,51 @@ public class SimpleRewardChest implements RewardChest {
 
     @Override
     public ItemStack getChestInfoItem() {
-        return null;
+        return info;
     }
 
     @Override
     public void addPart(RewardChestPart part) {
         parts.add(part);
+    }
+
+    @Override
+    public void give(Player player) throws RuntimeException {
+        if (getOwner() != null) {
+            throw new RuntimeException("One player is have the reward chest now.");
+        } else {
+            setOwner(player);
+        }
+    }
+
+    @Override
+    public void openGUIToOwner() {
+        RewardChestsMenuManager.openChestMainMenu(this);
+    }
+
+    @Override
+    public Collection<ItemStack> loot(Player player) {
+        AttributeInstance attr = player.getAttribute(Attribute.GENERIC_LUCK);
+        float luck = 0.0f;
+        if (attr != null) luck = (float) attr.getValue();
+        LootContext lootContext = new LootContext.Builder(player.getLocation())
+                .killer(player)
+                .luck(luck)
+                .lootingModifier(player.getInventory().getItemInMainHand().getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS))
+                .lootedEntity(null)
+                .build();
+        return getLootTable().populateLoot(new Random(), lootContext);
+    }
+
+    @Override
+    public void tick() {
+        for (RewardChestPart part : getParts()) {
+            part.tick();
+        }
+    }
+
+    @Override
+    public void deleteFromPlayer() {
+        RewardChestsPlugin.instance().getManager().removeChest(getOwner(), this);
     }
 }
