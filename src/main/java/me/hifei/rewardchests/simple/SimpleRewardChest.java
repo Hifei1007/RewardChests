@@ -4,6 +4,7 @@ import me.hifei.rewardchests.RewardChestsPlugin;
 import me.hifei.rewardchests.chest.RewardChest;
 import me.hifei.rewardchests.chest.RewardChestPart;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.loot.LootTable;
 
 import java.util.ArrayList;
@@ -13,15 +14,18 @@ import java.util.List;
 public class SimpleRewardChest implements RewardChest {
     private final LootTable table;
     private Player owner;
-    private List<RewardChestPart> parts = new ArrayList<>();
+    private final List<RewardChestPart> parts = new ArrayList<>();
+    private final ItemStack info;
 
-    public SimpleRewardChest (LootTable table) {
+    public SimpleRewardChest (LootTable table, ItemStack info) {
         this.table = table;
+        this.info = info;
     }
 
-    public SimpleRewardChest (LootTable table, Player player) {
+    public SimpleRewardChest (LootTable table, ItemStack info, Player player) {
         this.table = table;
         this.owner = player;
+        this.info = info;
         RewardChestsPlugin.instance().getManager().giveChest(player, this);
     }
     @Override
@@ -51,6 +55,11 @@ public class SimpleRewardChest implements RewardChest {
     @Override
     public void removePart(RewardChestPart part) {
         parts.remove(part);
+    }
+
+    @Override
+    public ItemStack getChestInfoItem() {
+        return null;
     }
 
     @Override

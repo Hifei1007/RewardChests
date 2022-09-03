@@ -1,6 +1,7 @@
 package me.hifei.rewardchests.chest;
 
 import me.hifei.rewardchests.simple.SimpleRewardChest;
+import net.minecraft.world.item.Items;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeInstance;
 import org.bukkit.enchantments.Enchantment;
@@ -18,14 +19,15 @@ public interface RewardChest {
     LootTable getLootTable();
     void setOwner(Player player);
     void removePart(RewardChestPart part);
+    ItemStack getChestInfoItem();
     void addPart(RewardChestPart part);
 
-    static RewardChest of (LootTable table) {
-        return new SimpleRewardChest(table);
+    static RewardChest of (LootTable table, ItemStack info) {
+        return new SimpleRewardChest(table, info);
     }
 
-    static RewardChest of (LootTable table, Player owner) {
-        return new SimpleRewardChest(table, owner);
+    static RewardChest of (LootTable table, ItemStack info, Player owner) {
+        return new SimpleRewardChest(table, info, owner);
     }
 
     default void give(Player player) throws RuntimeException {

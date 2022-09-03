@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47a154f-a385-4d8b-a806-c71a5431a3b8" name="变更" comment="start plugin">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/simple/SimpleRewardChest.java" afterDir="false" />
+    <list default="true" id="e47a154f-a385-4d8b-a806-c71a5431a3b8" name="变更" comment="coding something">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsGUIConfigApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestPartType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/OpeningMenuType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/gui/RewardChestsMenuManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/simple/SimpleRewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/simple/SimpleRewardChest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -53,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Project/RewardChests/libraries",
+    "last_opened_file_path": "D:/Project/RewardChests/libraries/spigot-nms-1.19.2.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -62,7 +65,7 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "工件",
+    "project.structure.last.edited": "库",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -99,7 +102,7 @@
       <workItem from="1662033065621" duration="4502000" />
       <workItem from="1662117826526" duration="1177000" />
       <workItem from="1662121221897" duration="938000" />
-      <workItem from="1662169978837" duration="3228000" />
+      <workItem from="1662169978837" duration="6017000" />
     </task>
     <task id="LOCAL-00001" summary="base work">
       <created>1662034205287</created>
@@ -185,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662172274540</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="coding something">
+      <created>1662173386384</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662173386384</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +228,8 @@
     <MESSAGE value="base work" />
     <MESSAGE value="starter test" />
     <MESSAGE value="start plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="start plugin" />
+    <MESSAGE value="coding something" />
+    <option name="LAST_COMMIT_MESSAGE" value="coding something" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
