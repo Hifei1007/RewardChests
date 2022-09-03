@@ -33,17 +33,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>api</groupId>
-            <artifactId>api</artifactId>
-            <version>1.19.2</version>
-            <systemPath>${basedir}\libraries\spigot-api-1.19.2.jar</systemPath>
-        </dependency>
-
-        <dependency>
-            <groupId>nms</groupId>
-            <artifactId>nms</artifactId>
-            <version>1.19.2</version>
-            <systemPath>${basedir}\libraries\spigot-nms-1.19.2.jar</systemPath>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>20.1.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

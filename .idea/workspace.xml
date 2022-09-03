@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e47a154f-a385-4d8b-a806-c71a5431a3b8" name="变更" comment="start plugin">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/core/RewardChest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/core/RewardChestPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/simple/SimpleRewardChest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/RewardChestsPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/chest/RewardChestManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Project/RewardChests/files/plugin.yml",
+    "last_opened_file_path": "D:/Project/RewardChests/libraries",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -96,7 +99,7 @@
       <workItem from="1662033065621" duration="4502000" />
       <workItem from="1662117826526" duration="1177000" />
       <workItem from="1662121221897" duration="938000" />
-      <workItem from="1662169978837" duration="1695000" />
+      <workItem from="1662169978837" duration="3228000" />
     </task>
     <task id="LOCAL-00001" summary="base work">
       <created>1662034205287</created>
@@ -175,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662170003243</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="start plugin">
+      <created>1662172274540</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662172274540</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

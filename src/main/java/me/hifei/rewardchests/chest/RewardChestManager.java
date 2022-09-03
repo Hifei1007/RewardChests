@@ -2,13 +2,10 @@ package me.hifei.rewardchests.chest;
 
 import org.bukkit.entity.Player;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class RewardChestManager {
-    private Map<Player, List<RewardChest>> rewardChests;
+    private final Map<Player, List<RewardChest>> rewardChests = new HashMap<>();
 
     private void checkPlayer(Player player) {
         if (!rewardChests.containsKey(player)) {

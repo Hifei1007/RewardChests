@@ -1,5 +1,6 @@
 package me.hifei.rewardchests.chest;
 
+import me.hifei.rewardchests.simple.SimpleRewardChest;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeInstance;
 import org.bukkit.enchantments.Enchantment;
@@ -17,6 +18,15 @@ public interface RewardChest {
     LootTable getLootTable();
     void setOwner(Player player);
     void removePart(RewardChestPart part);
+    void addPart(RewardChestPart part);
+
+    static RewardChest of (LootTable table) {
+        return new SimpleRewardChest(table);
+    }
+
+    static RewardChest of (LootTable table, Player owner) {
+        return new SimpleRewardChest(table, owner);
+    }
 
     default void give(Player player) throws RuntimeException {
         if (getOwner() != null) {
