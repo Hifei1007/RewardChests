@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/test/plugins</output-path>
     <root id="archive" name="RewardChests.jar">
       <element id="module-output" name="RewardChests" />
+      <element id="file-copy" path="$PROJECT_DIR$/files/plugin.yml" />
     </root>
   </artifact>
 </component>
