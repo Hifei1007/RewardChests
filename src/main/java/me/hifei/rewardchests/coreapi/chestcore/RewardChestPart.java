@@ -1,4 +1,4 @@
-package me.hifei.rewardchests.chest;
+package me.hifei.rewardchests.coreapi.chestcore;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;

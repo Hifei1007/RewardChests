@@ -1,8 +1,6 @@
 package me.hifei.rewardchests.gui;
 
-import me.hifei.rewardchests.chest.RewardChest;
-import me.hifei.rewardchests.chest.RewardChestManager;
-import org.bukkit.entity.HumanEntity;
+import me.hifei.rewardchests.coreapi.chestcore.RewardChest;
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;

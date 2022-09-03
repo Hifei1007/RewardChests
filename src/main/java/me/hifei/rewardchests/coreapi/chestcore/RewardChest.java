@@ -1,8 +1,8 @@
-package me.hifei.rewardchests.chest;
+package me.hifei.rewardchests.coreapi.chestcore;
 
 import me.hifei.rewardchests.RewardChestsPlugin;
+import me.hifei.rewardchests.gui.RewardChestsMenuManager;
 import me.hifei.rewardchests.simple.SimpleRewardChest;
-import net.minecraft.world.item.Items;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeInstance;
 import org.bukkit.enchantments.Enchantment;
@@ -39,7 +39,8 @@ public interface RewardChest {
         }
     }
 
-    default void openGUI(Player player) {
+    default void openGUIToOwner() {
+        RewardChestsMenuManager.openChestMainMenu(this);
     }
 
     default Collection<ItemStack> loot(Player player) {

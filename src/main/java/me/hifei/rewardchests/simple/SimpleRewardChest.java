@@ -1,8 +1,8 @@
 package me.hifei.rewardchests.simple;
 
 import me.hifei.rewardchests.RewardChestsPlugin;
-import me.hifei.rewardchests.chest.RewardChest;
-import me.hifei.rewardchests.chest.RewardChestPart;
+import me.hifei.rewardchests.coreapi.chestcore.RewardChest;
+import me.hifei.rewardchests.coreapi.chestcore.RewardChestPart;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.loot.LootTable;

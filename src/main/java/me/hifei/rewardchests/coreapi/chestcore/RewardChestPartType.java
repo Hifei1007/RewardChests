@@ -1,5 +1,7 @@
-package me.hifei.rewardchests.chest;
+package me.hifei.rewardchests.coreapi.chestcore;
 
+import me.hifei.rewardchests.coreapi.extended.ExtendedRewardChest;
+import me.hifei.rewardchests.coreapi.extended.ExtendedRewardChestPart;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.Collection;
@@ -38,6 +40,9 @@ public interface RewardChestPartType {
     default boolean isCanCraft() {
         return false;
     }
+    default boolean isExtendedType() {
+        return false;
+    }
     /**
      * 产生一个该组件类型的组件。<br>
      *
@@ -46,4 +51,5 @@ public interface RewardChestPartType {
      * @return 产生的组件。
      */
     RewardChestPart createPart(RewardChest chest);
+    ExtendedRewardChestPart createPart(ExtendedRewardChest chest);
 }
