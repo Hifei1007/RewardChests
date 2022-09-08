@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e47a154f-a385-4d8b-a806-c71a5431a3b8" name="变更" comment="coding something">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/DefineArgs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/DefineLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/DefinePosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/ExtendedPartHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/HookLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/HookMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/hook/HookPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/simple/SimpleExtendedRewardChest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/chestcore/RewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/chestcore/RewardChest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/extended/ExtendedRewardChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/hifei/rewardchests/coreapi/extended/ExtendedRewardChest.java" afterDir="false" />
@@ -110,7 +104,8 @@
       <workItem from="1662121221897" duration="938000" />
       <workItem from="1662169978837" duration="9477000" />
       <workItem from="1662195211044" duration="3707000" />
-      <workItem from="1662205044442" duration="2874000" />
+      <workItem from="1662205044442" duration="5623000" />
+      <workItem from="1662255843626" duration="3026000" />
     </task>
     <task id="LOCAL-00001" summary="base work">
       <created>1662034205287</created>
@@ -224,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662205776621</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="coding something">
+      <created>1662207931025</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662207931025</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

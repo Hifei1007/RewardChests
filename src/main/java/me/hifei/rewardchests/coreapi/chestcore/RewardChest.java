@@ -1,5 +1,6 @@
 package me.hifei.rewardchests.coreapi.chestcore;
 
+import me.hifei.rewardchests.simple.SimpleExtendedRewardChest;
 import me.hifei.rewardchests.simple.SimpleRewardChest;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -20,6 +21,16 @@ public interface RewardChest {
     Collection<ItemStack> loot(Player player);
     void tick();
     void deleteFromPlayer();
+
+    default SimpleRewardChest toSimple() throws RuntimeException {
+        if (this instanceof SimpleRewardChest) {
+            return (SimpleRewardChest) this;
+        } else if (this instanceof SimpleExtendedRewardChest) {
+            return ((SimpleExtendedRewardChest) this).getMappingInstance();
+        } else {
+            throw new RuntimeException("The RewardChest instance is not a SimpleRewardChest or SimpleExtendedRewardChest instance!");
+        }
+    }
 
     static RewardChest of (LootTable table, ItemStack info) {
         return new SimpleRewardChest(table, info);

@@ -30,6 +30,7 @@ public class SimpleRewardChestManager implements RewardChestManager {
     @Override
     public void removeChest(Player player, RewardChest chest) {
         checkPlayer(player);
+        chest.setOwner(null);
         rewardChests.get(player).remove(chest);
     }
 }
